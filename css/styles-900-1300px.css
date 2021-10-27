@@ -1,0 +1,16 @@
+@media (min-width: 900px) and (max-width: 1300px) {
+  /*-----------MAIN BLOCK-----------*/
+  .list {
+    width: 23%;
+    margin-left: 1%;
+    padding-top: 40px;        
+    text-transform: uppercase;  
+  }
+  
+  .categories__content {
+    height: 80vw;
+    margin-left: 125px; 
+  }
+  
+  /*---------END OF MAIN BLOCK---------*/
+}

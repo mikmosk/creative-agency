@@ -1,0 +1,152 @@
+@media (min-width: 768px) and (max-width: 1300px) {
+  body {  
+    background: url(../images/header-bg.png) top center/100% auto no-repeat;       
+  }
+  /*-----------HEADER------------*/
+  .title__header {
+    margin-top: 83px;    
+  }
+
+  .title__main {  
+    border: 8px solid #60606E;
+    line-height: 60px;
+    font-size: 2em;    
+  }
+
+  .title__footer {
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.8vw;
+    line-height: 2.5vw;
+  }
+  /*---------END OF HEADER---------*/
+
+  /*------------MAIN BLOCK-----------*/
+  .main-content {    
+    margin: 0 auto;
+    max-width: 1300px;    
+  }  
+    /*--------------HISTORY------------------*/
+    .history {
+      height: 30%;          
+      background: white; 
+      text-align: center;    
+    }
+    
+    .header-history {    
+      margin: 20px 10%;
+      padding-top: 20px;
+      text-align: center;
+    }
+   
+    .article__text {    
+      margin-top: 28px;
+      line-height: 24px;
+    }
+    
+    .button-read-more {
+      margin-left: 60%;
+    }
+    /*--------------END OF HISTORY----------------*/
+    
+    /*--------------ADVANTAGES-------------------*/
+    .advantages {
+      margin-top: 0;
+      padding-top: 80px;     
+      background: none;
+      background-color: #FFFFFF;
+    }
+    
+    .advantages-text {
+      margin: 28px auto auto;
+      width: 70%;
+    }
+    
+    .lists-container {    
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;  
+      margin-top: 10px; 
+      padding-top: 20px;                 
+    }
+    
+    .list__header {
+      font-size: 15px;
+    }
+    /*--------------END OF ADVANTAGES----------------*/
+
+    /*------------------PORTFOLIO--------------------*/
+    .article-portfolio {
+      margin-top: 100px;    
+    }
+    
+    .categories {
+      display: flex;  
+      margin-top: 80px;      
+    }
+    
+    .categories__list-container {
+      width: 10%;  
+      margin-left: 5%;   
+    }
+    
+    .category__image {    
+      width: 30%; 
+      margin: 0 3% 3% 0;        
+    }
+    /*---------------END OF PORTFOLIO-----------------*/
+
+  /*----------END OF MAIN BLOCK---------*/
+
+  /*---------NEWSLETTER SECTION---------*/
+  .working-proposal__text {
+    margin-right: 5%;    
+    padding-left: 2%;
+    font-size: 26px;
+    line-height: 36px;
+  }
+  
+  .subscribe__header {
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .input-e-mail {
+    width: 45%; 
+  }
+  
+  .subscribe__form {
+    margin-top: 12px; 
+    box-sizing: border-box;  
+  }
+  
+  .button-subscribe-form {
+    width: 130px;
+    height: 100%;
+  }  
+  /*-------END OF NEWSLETTER SECTION-----*/
+
+  /*---------------FOOTER----------------*/
+  .footer__first-line {
+    justify-content: center;
+    flex-wrap: wrap;    
+  }
+  
+  .footer-nav {  
+    width: 500px;  
+    margin: 30px 40px 0 40px;  
+    text-align: center;  
+    list-style-type: none;    
+  }
+  
+  .about-author {
+    margin: 30px 40px 0 40px;      
+  }
+  
+  .footer__second-line {    
+    justify-content: center;    
+  }
+  /*-------------END OF FOOTER-------------*/
+}
