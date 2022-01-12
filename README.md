@@ -1,2 +1,3 @@
 # creative-agency
-Adaptive website created on EPAM training 2021
+
+Adaptive website created on EPAM training 2021.
